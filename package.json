@@ -1,7 +1,7 @@
 {
   "name": "grunt-haven",
   "description": "Use Haven from Grunt",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "homepage": "https://github.com/Adam/grunt-haven",
   "author": {
     "name": "Adam Knight",
@@ -39,6 +39,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "haven": ">=0.4.6"
+    "haven": ">=0.4.10"
   }
 }

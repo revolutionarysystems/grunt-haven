@@ -20,7 +20,7 @@ module.exports = function(grunt) {
           haven.getConfig().local_cache = cache_path;
         }
       }
-      haven.run(commands[0], callback);  
+      haven.run(commands[0], [], callback);  
     }else if(commands.length==2){
       var config = grunt.config.get("haven")[commands[0]];
       if(config != null){
@@ -29,7 +29,7 @@ module.exports = function(grunt) {
           haven.getConfig().local_cache = cache_path;
         }
       }
-      haven.run(commands[1], callback);  
+      haven.run(commands[1], [], callback);  
     }else{
       grunt.log.error("Invalid number of arguments: " + arguments);
     }
